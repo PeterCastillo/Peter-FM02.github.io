@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/header.css"/>
+  <link rel="stylesheet" type="text/css" href="css/secction.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="container__nav">
+    <nav class="nav">
+      <div class="nav__logo">
+        <img src="images/logo.svg" alt="Snap">
+        <img class="menu-btn" src="images/icon-menu.svg" alt="">
+      </div>
+      <div class="nav__menu">
+        <div class="black close"></div>
+        <ul class="nav__menu_list">
+          <li class="nav__menu_list--element nav__menu_list--element--btn close"><img src="images/icon-close-menu.svg" alt="x"></li>
+          <li class="nav__menu_list--element nav__menu_list--element--features">
+            <a href="#">Features <img src="images/icon-arrow-down.svg" alt="angle"></a>
+            <ul class="nav__menu_list--element__list nav__menu_list--element__list--features">
+              <li class="nav__menu_list--element__list--element close"><img src="images/icon-todo.svg" alt=""> <a href="#">Todo List</a></li>
+              <li class="nav__menu_list--element__list--element close"><img src="images/icon-calendar.svg" alt=""><a href="#">Calendar</a></li>
+              <li class="nav__menu_list--element__list--element close"><img src="images/icon-reminders.svg" alt=""><a href="#">Reminders</a></li>
+              <li class="nav__menu_list--element__list--element close"><img src="images/icon-planning.svg" alt=""><a href="#">Planning</a></li>
+            </ul>
+          </li>
+          <li class="nav__menu_list--element nav__menu_list--element--company">
+            <a href="#">Company <img src="images/icon-arrow-down.svg" alt=""></a>
+            <ul class="nav__menu_list--element__list nav__menu_list--element__list--company">
+              <li class="nav__menu_list--element__list--element close"><a href="#">History</a></li>
+              <li class="nav__menu_list--element__list--element close"><a href="#">Our Team</a></li>
+              <li class="nav__menu_list--element__list--element close"><a href="#">Blog</a></li>
+            </ul>
+          </li>
+          <li class="nav__menu_list--element nav__menu_list--element--careers close"><a href="#">Careers</a></li>
+          <li class="nav__menu_list--element nav__menu_list--element--about close"><a href="#">About</a></li>  
+          <li class="nav__menu_list--element nav__menu_list--element-login close"><a href="#">Login</a></li>
+          <li class="nav__menu_list--element nav__menu_list--element-register close"><a href="#">Register</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="secction__container">
+      <div class="seccion">
+        <div class="seccion__about">
+          <span class="seccion__about__span">Make <br>remote work</span>
+          <p class="seccion__about__p">Get your team in sync, no matter your location. Streamline processes, 
+            create team rituals, and watch productivity soar.
+          </p>
+          <span class="seccion__about__button">Learn more</span>
+          <div class="seccion__about__imgs">
+            <img src="images/client-audiophile.svg" alt="icon">
+            <img src="images/client-databiz.svg" alt="">
+            <img src="images/client-maker.svg" alt="">
+            <img src="images/client-meet.svg" alt="">
+          </div>
+        </div>
+        <div class="seccion__img">
+          <img class="seccion__img__desktop" src="images/image-hero-desktop.png" alt="">
+          <img class="seccion__img__mobile" src="images/image-hero-mobile.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="js/header.js"></script>
+</body>
+</html>
